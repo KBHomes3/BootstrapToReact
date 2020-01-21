@@ -15,10 +15,16 @@ h2 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+i{
+  padding: 5px 10px;
+}
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
+}
+.comment-modal label, .comment-modal textarea, .comment-modal input, .comment-modal select{
+  width:100%;
 }
 
 .site-footer {
