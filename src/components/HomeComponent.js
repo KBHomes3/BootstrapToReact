@@ -50,6 +50,8 @@ function Home(props) {
                 </div>
                 <div className="col-md m-1">
                     <RenderCard item={props.partner}
+                                isLoading={props.partnerLoading}
+                                errMess={props.partnerErrMess}
                     />
                 </div>
             </div>
